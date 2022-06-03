@@ -1,0 +1,24 @@
+States:
+S ,accept ,start
+End
+Sigma:
+a
+b
+c
+d
+e
+End
+Tape:
+a
+b
+c
+d
+e
+'_'
+End
+Transitions:
+A , a , S L
+A , c , C L
+A , d , B L
+End
+
